@@ -8,6 +8,7 @@ import Swiper1 from "../../assets/images/swiper1.jpg";
 import Swiper2 from "../../assets/images/swiper2.jpg";
 import Swiper3 from "../../assets/images/swiper3.jpg";
 import Swiper4 from "../../assets/images/swiper4.jpg";
+import Swiper5 from "../../assets/images/swiper5.jpg";
 
 
 export default function Hero() {
@@ -38,6 +39,9 @@ export default function Hero() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={Swiper4} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={Swiper5} alt="" />
                     </SwiperSlide>
                 </Swiper>
             </div>
